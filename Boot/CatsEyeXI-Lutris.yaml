@@ -1,37 +1,37 @@
 name: CatsEyeXI
 game_slug: catseyexi
-version: "2.2.186"
+version: "2.2.188"
 slug: catseyexi-wine
 runner: wine
 description: "CatsEyeXI Launcher — installs and manages the CatsEyeXI FFXI private server client."
 script:
   files:
     - launcher:
-        url: https://launcher.catseyexi.com/launcher/boot/CatsEyeXI-Launcher.exe?v=2.2.186
+        url: https://launcher.catseyexi.com/launcher/boot/CatsEyeXI-Launcher.exe?v=2.2.188
         filename: CatsEyeXI-Launcher.exe
     - updater:
-        url: https://launcher.catseyexi.com/launcher/boot/CatsEyeXI-Updater.exe?v=2.2.186
+        url: https://launcher.catseyexi.com/launcher/boot/CatsEyeXI-Updater.exe?v=2.2.188
         filename: CatsEyeXI-Updater.exe
     - appdll:
-        url: https://launcher.catseyexi.com/launcher/boot/CatsEyeXI-Launcher.App.dll?v=2.2.186
+        url: https://launcher.catseyexi.com/launcher/boot/CatsEyeXI-Launcher.App.dll?v=2.2.188
         filename: CatsEyeXI-Launcher.App.dll
     - splash:
-        url: https://launcher.catseyexi.com/launcher/boot/splash.png?v=2.2.186
+        url: https://launcher.catseyexi.com/launcher/boot/splash.png?v=2.2.188
         filename: splash.png
     - dep_vc2010:
-        url: https://launcher.catseyexi.com/launcher/boot/deps/Microsoft%20Visual%20C%2B%2B%202010%20Redistributable.exe?v=2.2.186
+        url: https://launcher.catseyexi.com/launcher/boot/deps/Microsoft%20Visual%20C%2B%2B%202010%20Redistributable.exe?v=2.2.188
         filename: Microsoft Visual C++ 2010 Redistributable.exe
     - dep_vc2012:
-        url: https://launcher.catseyexi.com/launcher/boot/deps/Microsoft%20Visual%20C%2B%2B%202012%20Redistributable.exe?v=2.2.186
+        url: https://launcher.catseyexi.com/launcher/boot/deps/Microsoft%20Visual%20C%2B%2B%202012%20Redistributable.exe?v=2.2.188
         filename: Microsoft Visual C++ 2012 Redistributable.exe
     - dep_vc2013:
-        url: https://launcher.catseyexi.com/launcher/boot/deps/Microsoft%20Visual%20C%2B%2B%202013%20Redistributable.exe?v=2.2.186
+        url: https://launcher.catseyexi.com/launcher/boot/deps/Microsoft%20Visual%20C%2B%2B%202013%20Redistributable.exe?v=2.2.188
         filename: Microsoft Visual C++ 2013 Redistributable.exe
     - dep_vc2015:
-        url: https://launcher.catseyexi.com/launcher/boot/deps/Microsoft%20Visual%20C%2B%2B%202015%20Redistributable.exe?v=2.2.186
+        url: https://launcher.catseyexi.com/launcher/boot/deps/Microsoft%20Visual%20C%2B%2B%202015%20Redistributable.exe?v=2.2.188
         filename: Microsoft Visual C++ 2015 Redistributable.exe
     - dep_dx:
-        url: https://launcher.catseyexi.com/launcher/boot/deps/DirectX%20End-User%20Runtime.exe?v=2.2.186
+        url: https://launcher.catseyexi.com/launcher/boot/deps/DirectX%20End-User%20Runtime.exe?v=2.2.188
         filename: DirectX End-User Runtime.exe
   game:
     exe: drive_c/CatsEyeXI/CatsEyeXI-Launcher.exe
